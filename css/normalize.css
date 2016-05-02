@@ -1,1 +1,6 @@
 ../app/bower_components/normalize-css/normalize.css
+
+/*覆盖默认样式*/
+h1{
+	margin: 1em 0 1.5em;
+}
