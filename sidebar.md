@@ -19,6 +19,7 @@
 1. [实习初期需着重注意的几个问题](#docs/note/10practice)
 1. [参加招聘会之前的四堂必修课](#docs/note/11interview_tips)
 1. [给作为老师的自己的七条建议](#docs/note/12suggestions_to_teacher)
+1. [大学期间要注意养成这些好习惯](#docs/note/13develop_good_habits)
 ### 第二篇 远方和诗
 1. [十九层的窗前](#docs/poem/01at_the_window)
 1. [春夜雨后](#docs/poem/02after_the_rain)
