@@ -1,6 +1,6 @@
 var CONFIG = {
   // your website's title
-  document_title: "拍岸集",
+  document_title: "《青春拍岸》",
 
   // index page
   index: "README.md",
