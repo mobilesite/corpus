@@ -1,4 +1,4 @@
-# [《拍岸集》]()
+# [《青春拍岸》]()
 
 作者：[拍岸](http://mobilesite.github.io)
 
