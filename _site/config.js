@@ -9,7 +9,7 @@ var CONFIG = {
   sidebar_file: "sidebar.md",
 
   // where the docs are actually stored on github - so you can edit
-  base_url: "https://mobilesite.github.com/corpus/es6tutorial/edit/gh-pages",
+  base_url: "https://github.com/mobilesite/corpus/tree/gh-pages",
 };
 
 // **************************
