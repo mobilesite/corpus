@@ -33,6 +33,7 @@
 1. [超越自己的时刻](#docs/poem/10the_moment_of_surpassing_yourself)
 1. [青春是一场六月雨](#docs/poem/11rain_in_june)
 1. [告诉自己](#docs/poem/12reminders_to_myself)
+1. [盛夏的阳光](#docs/poem/13sunshine_in_the_midsummer)
 ### 第三篇 笔底波澜
 1. [当你已经25+的时候——青春边上的自语](#docs/essay/01when_you_are_25+)
 1. [追梦的滋味](#docs/essay/02taste_of_dream_chasing)
