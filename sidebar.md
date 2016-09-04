@@ -29,15 +29,22 @@
 1. [写在梦醒时](#docs/poem/06dream_wake)
 1. [花港](#docs/poem/07Huagang)
 1. [岁末回乡偶书](#docs/poem/08write_in_my_hometown)
+1. [那静静流走的时光](#docs/poem/09the_time)
+1. [超越自己的时刻](#docs/poem/10the_moment_of_surpassing_yourself)
+1. [青春](#docs/poem/11rain_in_june)
+1. [告诉自己](#docs/poem/12reminders_to_myself)
+1. [盛夏的阳光](#docs/poem/13sunshine_in_the_midsummer)
 ### 第三篇 青春随笔
 1. [追梦的滋味](#docs/essay/02taste_of_dream_chasing)
 1. [那些年](#docs/essay/03in_those_years)
 1. [毕业时分](#docs/essay/04graduation_day)
 1. [白雪翻飞风低吟](#docs/essay/05the_death_of_a_classmate)
 1. [行走在这个匆忙的年代](#docs/essay/06live_in_hurry_age)
-1. [告诉自己](#docs/essay/07reminders_to_myself)
+1. [匆匆又一年](#docs/essay/07year_in_a_rush)
 1. [雨中漂泊的思绪](#docs/essay/08wandering_thoughts_in_the_rain)
 1. [关于如何有效地进行持续学习的思考](#docs/essay/09continuous_learning)
+1. [冬日拾遗](#docs/essay/10collections_in_winter)
+1. [转角](#docs/essay/11the_corners)
 1. [当你已经25+的时候——青春边上的自语](#docs/essay/01when_you_are_25+)
 
 ## 其它
