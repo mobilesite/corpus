@@ -35,6 +35,9 @@
 1. [青春](#docs/poem/11rain_in_june)
 1. [告诉自己](#docs/poem/12reminders_to_myself)
 1. [盛夏的阳光](#docs/poem/13sunshine_in_the_midsummer)
+1. [多年往事成追忆](#docs/poem/14years_of_memories)
+1. [荒芜](#docs/poem/15years_of_memories)
+1. [我是荒野的一棵树](#docs/poem/16a_tree_in_the_wilds.md)
 ### 第三篇 青春随笔
 1. [追梦的滋味](#docs/essay/02taste_of_dream_chasing)
 1. [那些年](#docs/essay/03in_those_years)
@@ -52,7 +55,9 @@
 1. [母亲的送别](#docs/essay/14the_see_off_of_my_mother)
 1. [隔窗听雨话梧桐](#docs/essay/15the_phoenix)
 1. [直面寂寞沙洲](#docs/essay/15enjoy_loneliness)
-
+1. [四月的怀念](#docs/essay/17the_think_in_april)
+1. [变](#docs/essay/19changes)
+1. [油菜花的梦](#docs/essay/18the_dream_about_rape_flowers)
 
 ## 其它
 - [源码](http://github.com/mobilesite/corpus/)
