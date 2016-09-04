@@ -8,7 +8,7 @@
 1. [前言](#README)
 ### 第一篇 杏坛手记
 1. [让我们共道一声：大学，你好！](#docs/note/01hello_college)
-1. [各种认证考试，你该如何选择？](#docs/note/02authentication_selection)
+1. [各种职业认证，该如何选择？](#docs/note/02authentication_selection)
 1. [与青年学生们聊怎样逐梦](#docs/note/03chase_dream)
 1. [爱，要让人看见——谈集体氛围的营造](#docs/note/04group_atmosphere)
 1. [当一切都熟悉后，如何保持活力](#docs/note/05maintain_vigour)
