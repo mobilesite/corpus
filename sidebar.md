@@ -48,6 +48,11 @@
 1. [转角](#docs/essay/11the_corners)
 1. [当你已经25+的时候——青春边上的自语](#docs/essay/01when_you_are_25+)
 1. [雪后](#docs/essay/12after_snowing)
+1. [路旁小河](#docs/essay/13river_beside_the_road)
+1. [母亲的送别](#docs/essay/14the_see_off_of_my_mother)
+1. [隔窗听雨话梧桐](#docs/essay/15the_phoenix)
+1. [直面寂寞沙洲](#docs/essay/15enjoy_loneliness)
+
 
 ## 其它
 - [源码](http://github.com/mobilesite/corpus/)
