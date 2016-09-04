@@ -29,8 +29,7 @@
 1. [写在梦醒时](#docs/poem/06dream_wake)
 1. [花港](#docs/poem/07Huagang)
 1. [岁末回乡偶书](#docs/poem/08write_in_my_hometown)
-### 第三篇 笔底波澜
-1. [当你已经25+的时候——青春边上的自语](#docs/essay/01when_you_are_25+)
+### 第三篇 青春随笔
 1. [追梦的滋味](#docs/essay/02taste_of_dream_chasing)
 1. [那些年](#docs/essay/03in_those_years)
 1. [毕业时分](#docs/essay/04graduation_day)
@@ -39,6 +38,7 @@
 1. [告诉自己](#docs/essay/07reminders_to_myself)
 1. [雨中漂泊的思绪](#docs/essay/08wandering_thoughts_in_the_rain)
 1. [关于如何有效地进行持续学习的思考](#docs/essay/09continuous_learning)
+1. [当你已经25+的时候——青春边上的自语](#docs/essay/01when_you_are_25+)
 
 ## 其它
 - [源码](http://github.com/mobilesite/corpus/)
