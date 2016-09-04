@@ -46,6 +46,7 @@
 1. [冬日拾遗](#docs/essay/10collections_in_winter)
 1. [转角](#docs/essay/11the_corners)
 1. [当你已经25+的时候——青春边上的自语](#docs/essay/01when_you_are_25+)
+1. [雪后](#docs/essay/12after_snowing)
 
 ## 其它
 - [源码](http://github.com/mobilesite/corpus/)
