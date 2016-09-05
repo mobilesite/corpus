@@ -39,6 +39,7 @@
 1. [荒芜](#docs/poem/15desolation)
 1. [我是荒野的一棵树](#docs/poem/16a_tree_in_the_wilds)
 ### 第三篇 青春随笔
+1. [油菜花的梦](#docs/essay/18the_dream_about_rape_flowers)
 1. [追梦的滋味](#docs/essay/02taste_of_dream_chasing)
 1. [那些年](#docs/essay/03in_those_years)
 1. [毕业时分](#docs/essay/04graduation_day)
@@ -57,7 +58,6 @@
 1. [直面寂寞沙洲](#docs/essay/16enjoy_loneliness)
 1. [四月的怀念](#docs/essay/17the_think_in_april)
 1. [变](#docs/essay/19changes)
-1. [油菜花的梦](#docs/essay/18the_dream_about_rape_flowers)
 
 ## 其它
 - [源码](http://github.com/mobilesite/corpus/)
