@@ -1,6 +1,6 @@
 # 花港
 
-![花港公园](images/huaguang.jpg)
+![花港公园](images/huagang.jpg)
 
 ```
 

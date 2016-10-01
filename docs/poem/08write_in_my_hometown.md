@@ -1,5 +1,7 @@
 # 岁末回乡偶书
 
+![秋意](images/shanqiu.jpg)
+
 <small>
 
 二〇〇九年末，

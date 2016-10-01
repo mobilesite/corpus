@@ -1,5 +1,7 @@
 # 盛夏的阳光
 
+![阳光](images/yangguang.jpg)
+
 ```
 我爱盛夏的阳光，
 
