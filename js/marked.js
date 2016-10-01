@@ -551,6 +551,7 @@
 
     InlineLexer.output = function(src, links, options) {
         var inline = new InlineLexer(links, options);
+        console.log(8,inline.output(src);)
         return inline.output(src);
     };
 
