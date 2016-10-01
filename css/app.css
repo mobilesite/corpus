@@ -161,8 +161,8 @@ input.searchButton {
 
     color: #FFF;
 
-    background: #111;
-    border-radius: 5px;
+    /*background: #111;*/
+    /*border-radius: 5px;*/
 }
 
 #content code {
@@ -226,8 +226,8 @@ input.searchButton {
 
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
 
     /*border-radius: 5px;*/
 }
@@ -529,8 +529,9 @@ color: #66d9ef;
 
 /*自定义覆盖样式*/
 #content pre{
-    background: #f7f7f7;
-    background: rgba(0,39,59,.06);
+    /*background: #f7f7f7;*/
+    background: #fff;
+    /*background: rgba(0,39,59,.06);*/
     color: #333;
     padding-top: 25px;
     padding-bottom: 25px;

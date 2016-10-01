@@ -222,7 +222,7 @@ input.searchButton {
 }
 
 #content img {
-    max-width: 90%;
+    max-width: 100%;
     display: block;
 
     margin-left: auto;
