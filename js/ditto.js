@@ -30,7 +30,7 @@ var commentLink = '';
 // var duoshuoQuery;
 // var timmer;
 
-marked.InlineLexer.renderer.image = function() {};
+//marked.InlineLexer.renderer.image = function() {};
 
 function initialize() {
     // initialize sidebar and buttons
