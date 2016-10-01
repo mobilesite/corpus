@@ -19,10 +19,10 @@ var ditto = {
 };
 
 //var disqusCode = '<h3>留言</h3><div id="disqus_thread"></div>';
-var disqusCode = '<h3></h3><div id="disqus_thread"></div>';
 var menu = new Array();
 
 //多说的全局变量
+var duoshuoCode = '';
 var duoshuoCode;
 var duoshuoQuery;
 
@@ -300,6 +300,15 @@ function router() {
     $.get(path, function (data) {
         $(ditto.error_id).hide();
         $(ditto.content_id).html(marked(data) + disqusCode);
+
+        //你的站点中的ID
+        window.duoshuo_identifier = (location.hash ? location.hash.replace("#", "") : 'READEME');
+        window.duoshuo_title = $(ditto.content_id + " h1").text();
+        window.duoshuo_url = window.location.href;
+        //多说评论框
+        duoshuoCode = '<div class="ds-thread" data-thread-key="' + window.duoshuo_identifier + '" data-title="' + window.duoshuo_title + '" data-url="' + window.duoshuo_url + '"></div>';
+        $(ditto.content_id).html(marked(data) + duoshuoCode);
+
         if ($(ditto.content_id + " h1").text() === ditto.document_title) {
             document.title = ditto.document_title;
         } else {
@@ -317,14 +326,6 @@ function router() {
         //加载多说
         (function () {
             // http://paiancorpus.duoshuo.com/admin/tools/
-
-            //你的站点中的ID
-            window.duoshuo_identifier = (location.hash ? location.hash.replace("#", "") : 'READEME');
-            window.duoshuo_title = $(ditto.content_id + " h1").text();
-            window.duoshuo_url = window.location.href;
-
-            //多说评论框
-            duoshuoCode = '<div class="ds-thread" data-thread-key="' + window.duoshuo_identifier + '" data-title="' + window.duoshuo_title + '" data-url="' + window.duoshuo_url + '"></div>';
 
             duoshuoQuery = {short_name: "paiancorpus"};
             (function () {
