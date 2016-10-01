@@ -362,6 +362,7 @@ Lexer.prototype.token = function(src, top, bq) {
         pre: cap[1] === 'pre' || cap[1] === 'script' || cap[1] === 'style',
         text: cap[0]
       });
+      console.log(1,src);
       continue;
     }
 
