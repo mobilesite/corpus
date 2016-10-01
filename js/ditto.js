@@ -305,12 +305,16 @@ function router() {
         $(ditto.error_id).hide();
         // $(ditto.content_id).html(marked(data) + disqusCode);
 
+
+
+        $(ditto.content_id).html(marked(data));
+
         var id = (location.hash ? location.hash.replace("#", "") : 'READEME');
         var title = $(ditto.content_id + " h1").text();
         var url = location.href;
         commentLink = '<a style="color: #4682BE;text-decoration: none;" class="comment-link" href="./comments.html?id='+ id +'&title='+ title +'&url='+ url +'">评论与反馈</a>'
 
-        $(ditto.content_id).html(marked(data) + commentLink);
+        $(ditto.content_id).append($(commentLink));
 
         //你的站点中的ID
         // window.duoshuo_identifier = (location.hash ? location.hash.replace("#", "") : 'READEME');

@@ -4,7 +4,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="app/bower_components/normalize-css/normalize.css">
-    <link rel="stylesheet" href="css/app.css">
     <title>《青春拍岸》</title>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -13,34 +12,44 @@
             color: #4682BE;
             text-decoration: none;
         }
+        #go-back{
+            padding-top: 10px;
+            font-size: 16px;
+            display: inline-block;
+        }
 
         #flip{
             display: none;
         }
+
+        #content {
+            padding-top: 10px;
+            padding-bottom: 150px;
+            margin-left: 20px;
+            margin-right: 20px;
+            font-size: 0.8rem;
+            line-height: 1.3rem;
+            counter-reset: section;
+        }
+
+        @media (min-width: 40rem){
+            #content {
+                width: 880px;
+                padding-left: 30px;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+        }
+
     </style>
-    <script src="js/jquery-1.11.0.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/marked.js"></script>
-    <script src="js/store.js"></script>
-    <script src="js/ditto.js"></script>
-    <script src="js/prism.js"></script>
+
 </head>
 <body>
-<!-- essential -->
-<div id="sidebar"></div>
+
 <div id="content">
     <h1 id="-">评论与反馈</h1>
-    <a href="javascript: history.go(-1);">返回</a>
+    <a id="go-back" href="javascript: history.go(-1);">返回</a>
 </div>
-<!-- optional -->
-<div id="back_to_top">back to top</div>
-<div id="edit">edit</div>
-<div id="loading">Loading ...</div>
-<div id="error">Opps! ... File not found!</div>
-<div id="flip"><div id="pageup">上一章</div><div id="pagedown">下一章</div></div>
-<div class="progress-indicator-2"></div>
-
-<script src="config.js"></script>
 <script>
     function GetQueryString(name){
         var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
