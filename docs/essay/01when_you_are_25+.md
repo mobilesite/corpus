@@ -1,6 +1,6 @@
 # 当你已25+的时候
 
-<small style="display:block;width:100%;text-align:right">——青春边上的自语</small>
+——青春边上的自语
 
 ![薄荷花开](images/bohe.jpg)
 
