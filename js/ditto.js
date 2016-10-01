@@ -44,6 +44,24 @@ function initialize() {
 
     // page router
     router();
+
+    //加载多说
+    (function () {
+        // http://paiancorpus.duoshuo.com/admin/tools/
+
+        duoshuoQuery = {short_name: "paiancorpus"};
+        (function () {
+            var ds = document.createElement('script');
+            ds.type = 'text/javascript';
+            ds.async = true;
+            ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+            ds.charset = 'UTF-8';
+            (document.getElementsByTagName('head')[0]
+            || document.getElementsByTagName('body')[0]).appendChild(ds);
+        })();
+
+    })();
+
     $(window).on('hashchange', router);
 }
 
@@ -322,24 +340,6 @@ function router() {
         $('#content code').map(function () {
             Prism.highlightElement(this);
         });
-
-
-        //加载多说
-        (function () {
-            // http://paiancorpus.duoshuo.com/admin/tools/
-
-            duoshuoQuery = {short_name: "paiancorpus"};
-            (function () {
-                var ds = document.createElement('script');
-                ds.type = 'text/javascript';
-                ds.async = true;
-                ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-                ds.charset = 'UTF-8';
-                (document.getElementsByTagName('head')[0]
-                || document.getElementsByTagName('body')[0]).appendChild(ds);
-            })();
-
-        })();
 
         // 加载disqus
 
