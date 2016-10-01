@@ -1,5 +1,7 @@
 # 我是荒野的一棵树
 
+![荒野的一棵树](images/huangyedeyikeshu.jpg)
+
 ```
 我是荒野的一棵树，
 
