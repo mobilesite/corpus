@@ -1,6 +1,7 @@
 # 四月的怀念
 
-![https://mobilesite.github.io/corpus/images/aiyemiguo.jpg](https://mobilesite.github.io/corpus/images/aiyemiguo.jpg)
+<img src="https://mobilesite.github.io/corpus/images/aiyemiguo.jpg" alt="">
+![/images/aiyemiguo.jpg](/images/aiyemiguo.jpg)
 
 四月，一望无际的华北平原，仍有些乍暖还寒的气息。抬头远望，云卷云舒中依稀可见起伏的峰峦。那峰峦的背后，是又已经久违的江南。“阳春三月，草长莺飞。”家乡那一片土地，应该又是一片喧嚣热闹了吧？
 
