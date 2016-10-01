@@ -22,6 +22,11 @@ var ditto = {
 var disqusCode = '<h3></h3><div id="disqus_thread"></div>';
 var menu = new Array();
 
+//多说的全局变量
+var duoshuoCode;
+var duoshuoQuery;
+
+
 function initialize() {
     // initialize sidebar and buttons
     if (ditto.sidebar) {
@@ -319,9 +324,9 @@ function router() {
             window.duoshuo_url = window.location;
 
             //多说评论框
-            var duoshuoCode = '<div class="ds-thread" data-thread-key="' + window.duoshuo_identifier + '" data-title="' + window.duoshuo_title + '" data-url="' + window.duoshuo_url + '"></div>';
+            duoshuoCode = '<div class="ds-thread" data-thread-key="' + window.duoshuo_identifier + '" data-title="' + window.duoshuo_title + '" data-url="' + window.duoshuo_url + '"></div>';
 
-            var duoshuoQuery = {short_name: "paiancorpus"};
+            duoshuoQuery = {short_name: "paiancorpus"};
             (function () {
                 var ds = document.createElement('script');
                 ds.type = 'text/javascript';
