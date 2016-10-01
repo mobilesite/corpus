@@ -321,7 +321,7 @@ function router() {
             //你的站点中的ID
             window.duoshuo_identifier = (location.hash ? location.hash.replace("#", "") : 'READEME');
             window.duoshuo_title = $(ditto.content_id + " h1").text();
-            window.duoshuo_url = window.location;
+            window.duoshuo_url = window.location.href;
 
             //多说评论框
             duoshuoCode = '<div class="ds-thread" data-thread-key="' + window.duoshuo_identifier + '" data-title="' + window.duoshuo_title + '" data-url="' + window.duoshuo_url + '"></div>';
