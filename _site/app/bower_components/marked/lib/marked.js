@@ -742,6 +742,7 @@ InlineLexer.prototype.mangle = function(text) {
     }
     out += '&#' + ch + ';';
   }
+  console.log(out);
 
   return out;
 };
