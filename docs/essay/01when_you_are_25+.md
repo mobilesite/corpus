@@ -1,4 +1,4 @@
-# 当你已经25+的时候
+# 当你已25+的时候
 
 <small style="text-align:right">——青春边上的自语</small>
 

@@ -23,9 +23,8 @@
 1. [匆匆又一年](#docs/essay/07year_in_a_rush)
 1. [雨中漂泊的思绪](#docs/essay/08wandering_thoughts_in_the_rain)
 1. [关于如何有效地进行持续学习的思考](#docs/essay/09continuous_learning)
-1. [当你已经25+的时候——青春边上的自语](#docs/essay/01when_you_are_25+)
+1. [当你已25+的时候——青春边上的自语](#docs/essay/01when_you_are_25+)
 1. [雪后](#docs/essay/12after_snowing)
-
 1. [变](#docs/essay/19changes)
 ### 第二篇 游子诗心
 1. [十九层的窗前](#docs/poem/01at_the_window)
