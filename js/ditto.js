@@ -312,7 +312,7 @@ function router() {
         var id = (location.hash ? location.hash.replace("#", "") : 'READEME');
         var title = $(ditto.content_id + " h1").text();
         var url = location.href;
-        commentLink = '<h3></h3><span style="font-size: 16px;">☞</span><a style="color: #4682BE;text-decoration: none;" class="comment-link" href="./comments.html?id='+ id +'&title='+ title +'&url='+ url +'">评论与反馈</a>'
+        commentLink = '<div style="margin-top: 50px;margin-bottom: 0px;padding-top: 20px;padding-bottom: 0px;text-align: left;border-top: 1px dotted #777;"></div><span style="font-size: 16px;">☞</span><a style="margin-left:3px;color: #4682BE;text-decoration: none;" class="comment-link" href="./comments.html?id='+ id +'&title='+ title +'&url='+ url +'">评论与反馈</a>'
 
         $(ditto.content_id).append($(commentLink));
 
