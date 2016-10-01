@@ -64,4 +64,4 @@
 ## 其它
 - [源码](http://github.com/mobilesite/corpus/)
 - [修订历史](https://github.com/mobilesite/corpus/commits/gh-pages)
-- [反馈意见](https://github.com/mobilesite/corpus/issues)
+- [issues](https://github.com/mobilesite/corpus/issues)
