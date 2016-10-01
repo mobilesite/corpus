@@ -26,6 +26,7 @@ var menu = new Array();
 var duoshuoCode = '';
 var duoshuoCode;
 var duoshuoQuery;
+var timmer;
 
 
 function initialize() {
@@ -332,7 +333,9 @@ function router() {
         }
 
         duoshuoQuery = {short_name: "paiancorpus"};
-        (function () {
+        timmer = '';
+
+        timmer = setTimeout(function () {
             var ds = document.createElement('script');
             ds.id= 'duoshuojs';
             ds.type = 'text/javascript';
@@ -340,7 +343,7 @@ function router() {
             ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
             ds.charset = 'UTF-8';
             (document.getElementsByTagName('body')[0]).appendChild(ds);
-        })();
+        },500)
 
         // 加载disqus
 
