@@ -308,6 +308,7 @@ function router() {
         window.duoshuo_title = $(ditto.content_id + " h1").text();
         window.duoshuo_url = window.location.href;
         //多说评论框
+        $('.ds-thread').remove();
         duoshuoCode = '<div class="ds-thread" data-thread-key="' + window.duoshuo_identifier + '" data-title="' + window.duoshuo_title + '" data-url="' + window.duoshuo_url + '"></div>';
         $(ditto.content_id).html(marked(data) + duoshuoCode);
 
