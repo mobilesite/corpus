@@ -1,5 +1,7 @@
 # 多年往事成追忆
 
+![林中夕阳](images/linzhongxiyang.jpg)
+
 ```
 
 站在那一段岁月的尽头，

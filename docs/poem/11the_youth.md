@@ -1,5 +1,7 @@
 # 青春
 
+![淡雅](images/buzhimingdehua.jpg)
+
 ```
 
 青春就是这样，

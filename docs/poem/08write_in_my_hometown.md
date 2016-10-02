@@ -1,6 +1,6 @@
 # 岁末回乡偶书
 
-![秋意](images/shanqiu.jpg)
+![萧索](images/xiaosuo.jpg)
 
 <small>
 
