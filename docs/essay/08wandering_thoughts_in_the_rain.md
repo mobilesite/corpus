@@ -1,6 +1,7 @@
 # 雨中漂泊的思绪
 
 ![雨](images/luzhu.jpg)
+<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
 
 又下雨了。每次下雨，总让我想起漂泊。
 

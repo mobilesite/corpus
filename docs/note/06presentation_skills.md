@@ -1,6 +1,7 @@
 # 关于演讲的准备和进行中的若干技巧
 
 ![变奏](images/bianzou.jpg)
+<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
 
 ### 一、演讲前
  

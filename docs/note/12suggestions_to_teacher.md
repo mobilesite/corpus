@@ -1,6 +1,7 @@
 # 给作为老师的自己的七条建议
 
 ![秋叶](images/qiuye.jpg)
+<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
 
 ### 一、多发现积极的方面
  

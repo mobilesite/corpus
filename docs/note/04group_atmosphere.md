@@ -1,6 +1,7 @@
 # 爱，要让人看见
 
 ![月季](images/yueji.jpg)
+<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
 
 ——谈集体氛围的营造
 

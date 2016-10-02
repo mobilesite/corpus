@@ -1,6 +1,7 @@
 # 油菜花的梦
 
 ![开得烂漫](images/meilihuatian.jpg)
+<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
 
 今晨出发回京，出横岭，下于田，穿万安，过泰和，我在车上被颠得有些头晕，但心境却格外明朗——因为我又看到了久违的油菜花。
 

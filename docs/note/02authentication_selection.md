@@ -1,6 +1,7 @@
 # 各种职业认证，该如何选择
 
 ![船](images/yaojiang.jpg)
+<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
 
 最近大家开始陆陆续续要考一些职业认证了，面对这杂七杂八的认证，我们该如何选择呢？老师和大家一起来看一看。
  

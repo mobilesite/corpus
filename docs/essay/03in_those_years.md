@@ -1,6 +1,7 @@
 # 那些年
 
 ![蓬莱远眺](images/penglai.jpg)
+<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
 
 （一）
 

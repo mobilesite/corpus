@@ -1,6 +1,7 @@
 # 超越自己的时刻
 
 ![撑竹筏](images/zhufa.jpg)
+<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
 
 ```
 

@@ -1,6 +1,7 @@
 # 毕业时分
 
 ![乌篷船带你去远行](images/wufengchuan.jpg)
+<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
 
 当满城的杨叶再一次在盛夏的风中奏起低低的交响，又一批学生毕业了！
 

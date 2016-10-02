@@ -3,7 +3,7 @@
 ——青春边上的自语
 
 ![薄荷花开](images/bohe.jpg)
-<small style="display:block;width:100%;text-align:right;color:#18cbff;">摄影/拍岸</small>
+<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
 
 25岁是一个分水岭。它的前边是20岁的潋滟春光，后边是30岁的凝重秋色。当你从25走向30的时候，该记取点什么呢？
  

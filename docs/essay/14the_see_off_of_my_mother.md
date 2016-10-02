@@ -1,6 +1,7 @@
 # 母亲的送别
 
 ![images/aiyemiguo.jpg](images/aiyemiguo.jpg)
+<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
 
 从我上中学那年开始，每次我较长时间的外出之前，母亲都要以她自己的方式为我送别。
 
