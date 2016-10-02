@@ -362,7 +362,6 @@
                     pre: cap[1] === 'pre' || cap[1] === 'script' || cap[1] === 'style',
                     text: cap[0]
                 });
-                console.log(1,src);
                 continue;
             }
 
@@ -551,7 +550,6 @@
 
     InlineLexer.output = function(src, links, options) {
         var inline = new InlineLexer(links, options);
-        console.log(8,inline.output(src))
         return inline.output(src);
     };
 
@@ -596,7 +594,6 @@
                 text = escape(cap[1]);
                 href = text;
                 out += this.renderer.link(href, null, text);
-                console.log(2,output)
                 continue;
             }
 
@@ -623,7 +620,6 @@
                     title: cap[3]
                 });
                 this.inLink = false;
-                console.log(3,out)
                 continue;
             }
 
@@ -641,7 +637,6 @@
                 this.inLink = true;
                 out += this.outputLink(cap, link);
                 this.inLink = false;
-                console.log(4,out)
 
                 continue;
             }
@@ -664,7 +659,6 @@
             if (cap = this.rules.code.exec(src)) {
                 src = src.substring(cap[0].length);
                 out += this.renderer.codespan(escape(cap[2], true));
-                console.log(5,out)
 
                 continue;
             }
@@ -750,7 +744,6 @@
             }
             out += '&#' + ch + ';';
         }
-        console.log(out);
 
         return out;
     };
@@ -791,7 +784,6 @@
     };
 
     Renderer.prototype.html = function(html) {
-        console.log(6,html)
         return html;
     };
 
