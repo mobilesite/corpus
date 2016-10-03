@@ -363,7 +363,7 @@ input.searchButton {
     display: none;
     position: fixed;
 
-    top: 0;
+    top: 45%;
     left: 50%;
     -webkit-transform: translate(-50%);
     transform: translate(-50%);
@@ -378,7 +378,6 @@ input.searchButton {
 		position: fixed;
 
 		height: 17px;
-		top: 45%;
 
 		/*margin-left: 560px;*/
         left: 0;
