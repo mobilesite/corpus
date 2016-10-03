@@ -29,9 +29,10 @@ body {
 
 #sidebar {
     margin-top: 0;
-    padding-left: 25px;
-	padding-bottom:25px;
-    padding-top: 25px;
+    /*padding-left: 25px;*/
+    /*padding-bottom:25px;*/
+    /*padding-top: 25px;*/
+    padding: 25px;
 
     box-shadow: 0 0 40px #CCC;
     -webkit-box-shadow: 0 0 40px #CCC;
@@ -45,7 +46,7 @@ body {
     position: fixed;
     height: 100%;
     margin-right: 20px;
-	padding-bottom:0px;
+	/*padding-bottom:0px;*/
     padding-top: 0px;
     overflow-y: scroll;
     overflow: -moz-scrollbars-vertical;
@@ -100,9 +101,9 @@ body {
     margin-top: 0;
     margin-bottom: 0.2rem;
     margin-left: 10px;
-    padding: 0;
+    padding: 5px 0 0;
 
-    text-indent: -5px;  /* to compensate for the padding for the dash */
+    /*text-indent: -5px;  !* to compensate for the padding for the dash *!*/
     /*font-size: 0.7rem;*/
 
     font-size: 16px;
