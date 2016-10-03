@@ -141,6 +141,12 @@ input.searchButton {
   height: 18px;
 }
 
+blockquote{
+    margin-left: 0;
+    margin-right: 0;
+    font-style: italic;
+}
+
 #content {
     padding-top: 10px;
     padding-bottom: 150px;
