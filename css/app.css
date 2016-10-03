@@ -149,9 +149,8 @@ input.searchButton {
 
 @media (min-width: 40rem) {
 	#content {
-		/*width: 580px;*/
-        width: 605px;
-		padding-left:330px;
+		width: 580px;
+		padding-left:355px;
 		margin-left: 0px;
 		margin-right: 0px;
 	}
@@ -389,7 +388,7 @@ input.searchButton {
 	width:100%;
 	/*bottom:10px;*/
     bottom: 15px;
-	font-size:10px;
+	font-size:14px;
 	text-align:center;
 }
 
@@ -588,10 +587,4 @@ footer .container {
     display: inline-block;
     padding-right: 5px;
     padding-left: 5px;
-}
-
-footer .copyright {
-    font-size: 14px;
-    text-align: center;
-    margin-bottom: 0;
 }
