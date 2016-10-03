@@ -567,7 +567,8 @@ color: #66d9ef;
     background: none;
 }
 h1{
-    margin: 1em 0 1.5em;
+    /*margin: 1em 0 1.5em;*/
+    margin: 0.8em 0;
     line-height: 1.2;
 }
 
