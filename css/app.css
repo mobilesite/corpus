@@ -159,6 +159,7 @@ input.searchButton {
 	#content {
 		width: 580px;
 		padding-left:355px;
+        padding-right: 20px;
 		margin-left: 0px;
 		margin-right: 0px;
 	}
