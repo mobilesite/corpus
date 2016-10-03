@@ -2,10 +2,16 @@
 
 /* Small screens (default) */
 html { font-size: 100%; }
+h1{
+    font-size: 1.5em;
+}
  
 /* Medium screens (640px) */
 @media (min-width: 40rem) { 
   html { font-size: 112%; }
+    h1{
+        font-size: 2rem;
+    }
 }
  
 /* Large screens (1024px) */
