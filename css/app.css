@@ -149,7 +149,8 @@ input.searchButton {
 
 @media (min-width: 40rem) {
 	#content {
-		width: 580px;
+		/*width: 580px;*/
+        width: 605px;
 		padding-left:330px;
 		margin-left: 0px;
 		margin-right: 0px;
