@@ -313,7 +313,7 @@ function router() {
         var id = (location.hash ? location.hash.replace("#", "") : 'READEME');
         var title = $(ditto.content_id + " h1").text();
         var url = location.href;
-        commentLink = '<div style="margin-top: 50px;margin-bottom: 0px;padding-top: 20px;padding-bottom: 0px;text-align: left;border-top: 1px dotted #777;"></div><span style="font-size: 16px;">☞</span><a style="margin-left:3px;color: #4682BE;text-decoration: none;" class="comment-link" href="./comments.html?id='+ id +'&title='+ title +'&url='+ url +'">评论与反馈</a>'
+        commentLink = '<div style="margin-top: 50px;margin-bottom: 0px;padding-top: 20px;padding-bottom: 0px;text-align: left;border-top: 1px dotted #777;"></div><div><span style="font-size: 16px;">☞</span><a style="margin-left:3px;color: #4682BE;text-decoration: none;" class="comment-link" href="./comments.html?id='+ id +'&title='+ title +'&url='+ url +'">评论与反馈</a></div><div><span style="font-size: 16px;">☞</span><a style="margin-left:3px;color: #4682BE;text-decoration: none;" class="comment-link" href="//mobilesite.github.io">博客首页</a></div>'
 
         $(ditto.content_id).append($(commentLink));
 
