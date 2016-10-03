@@ -883,12 +883,19 @@
     };
 
     Renderer.prototype.image = function(href, title, text) {
-        var out = '<img src="' + href + '" alt="' + text + '"';
-        if (title) {
+        var out = '<div class="img-wrap" style="background-image: url("'+ href +'")" alt="' + text + '"';
+        if(title){
             out += ' title="' + title + '"';
         }
-        out += this.options.xhtml ? '/>' : '>';
+        out += '"></div>';
         return out;
+
+        // var out = '<img src="' + href + '" alt="' + text + '"';
+        // if (title) {
+        //     out += ' title="' + title + '"';
+        // }
+        // out += this.options.xhtml ? '/>' : '>';
+        // return out;
     };
 
     /**
