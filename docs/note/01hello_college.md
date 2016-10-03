@@ -3,7 +3,7 @@
 ——一次与新生见面会上的发言
 
 ![菁菁校园](images/yehuacaodi.jpg)
-<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
+<div style="margin-top:-10px;color:#999;text-align:right;">摄影/拍岸</div>
 
 各位同学：
 

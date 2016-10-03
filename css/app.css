@@ -383,26 +383,32 @@ input.searchButton {
 
 #flip{
 	position:fixed;
-	height:20px;
+	/*height:20px;*/
+    height: 32px;
 	width:100%;
-	bottom:10px;
+	/*bottom:10px;*/
+    bottom: 15px;
 	font-size:10px;
 	text-align:center;
 }
 
 #pageup,#pagedown{
-	height:20px;
+	/*height:20px;*/
+    height: 32px;
 	width:70px;
 	display:inline-block;
-	border-radius: 5px;
+	/*border-radius: 5px;*/
+    border-radius: 8px;
     background-color: #AAA;
 	text-align: center;
-	line-height:20px;
+	/*line-height:20px;*/
+    line-height: 32px;
 	color: #FFF;
 }
 
 #pageup{
-	margin-right:5px;
+	/*margin-right:5px;*/
+    margin-right: 10px;
 }
 
 #pageup:hover,
@@ -412,13 +418,15 @@ input.searchButton {
 }
 
 #pagedown{
-	margin-left:5px;
+	/*margin-left:5px;*/
+    margin-left: 10px;
 }
 
 @media (min-width: 40rem) {
 	#flip{
 		margin-left:545px;
-		width:150px;
+		/*width:150px;*/
+        width: 190px;
 	}
 }
 

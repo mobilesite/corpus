@@ -1,7 +1,7 @@
 # 与学生们聊逐梦
 
 ![待放的向日葵](images/weikaidexiangrikui.jpg)
-<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
+<div style="margin-top:-10px;color:#999;text-align:right;">摄影/拍岸</div>
 
 最近有几个同学问起我一些关于自身发展的问题，大概都是围绕怎样更容易接近梦想，获得成功。虽然我不是成功人士，但我自己也是逐梦人。因此也有些许体会可以学生们分享。
 

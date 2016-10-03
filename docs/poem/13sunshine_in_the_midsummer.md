@@ -1,7 +1,7 @@
 # 盛夏的阳光
 
 ![阳光](images/yangguang.jpg)
-<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
+<div style="margin-top:-10px;color:#999;text-align:right;">摄影/拍岸</div>
 
 ```
 我爱盛夏的阳光，

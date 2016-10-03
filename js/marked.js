@@ -883,7 +883,7 @@
     };
 
     Renderer.prototype.image = function(href, title, text) {
-        var out = '<div class="img-wrap"><div class="img-inner" style="background-image: url('+ href +')"></div></div>';
+        var out = '<div class="img-wrap fn-clear"><div class="img-inner" style="background-image: url('+ href +')"></div></div>';
         return out;
 
         // var out = '<img src="' + href + '" alt="' + text + '"';

@@ -1,7 +1,7 @@
 # 四月的怀念
 
 ![林中路](images/linzhonglu.jpg)
-<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
+<div style="margin-top:-10px;color:#999;text-align:right;">摄影/拍岸</div>
 
 四月，一望无际的华北平原，仍有些乍暖还寒的气息。抬头远望，云卷云舒中依稀可见起伏的峰峦。那峰峦的背后，是又已经久违的江南。“阳春三月，草长莺飞。”家乡那一片土地，应该又是一片喧嚣热闹了吧？
 

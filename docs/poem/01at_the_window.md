@@ -1,7 +1,7 @@
 # 十九层的窗前
 
 ![江南梦寻](images/jiangnan.jpg)
-<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
+<div style="margin-top:-10px;color:#999;text-align:right;">摄影/拍岸</div>
 
 ```
 

@@ -1,7 +1,7 @@
 # 路旁小河
 
 ![路旁小河](images/xiaohe.jpg)
-<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
+<div style="margin-top:-10px;color:#999;text-align:right;">摄影/拍岸</div>
 
 我家门前有条小路，路的东边是条小河。小路曲曲折折向东南延伸而去，小河也相伴着向前蜿蜒。
 

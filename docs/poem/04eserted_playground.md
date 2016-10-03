@@ -1,7 +1,7 @@
 # 废弃的操场
 
 ![荒草地](images/luhua.jpg)
-<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
+<div style="margin-top:-10px;color:#999;text-align:right;">摄影/拍岸</div>
 
 ```
 这里，

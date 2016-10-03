@@ -1,7 +1,7 @@
 # 追梦的滋味
 
 ![向日葵](images/xiangrikui.jpg)
-<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
+<div style="margin-top:-10px;color:#999;text-align:right;">摄影/拍岸</div>
 
 最近看了一个小电影：《追梦的山里娃》。片子讲的是一群山村娃娃追逐自己的足球梦的故事。故事略有些夸张，但同样足以感动我。
  

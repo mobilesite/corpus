@@ -1,7 +1,7 @@
 # 秋天之前给学生的话
 
 ![秋意](images/shanqiu.jpg)
-<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
+<div style="margin-top:-10px;color:#999;text-align:right;">摄影/拍岸</div>
 
 孤灯，笔影，清茶。很久没有这样的感觉了。听着窗外的树叶沙沙作响，突然想到过两天就要立秋，转眼间再开学，我的那些学生们就大三了。平日里有很多话想对学生们说，但大多因繁杂的事务而搁置了下来，久而久之，就渐渐的淡忘了。于是赶紧趁着这个开学前的空档，记录一二。
 

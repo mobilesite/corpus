@@ -1,7 +1,7 @@
 # 告诉自己
 
 ![蜜蜂](images/mifeng.jpg)
-<div style="margin-top:5px;color:#999;text-align:right;">摄影/拍岸</div>
+<div style="margin-top:-10px;color:#999;text-align:right;">摄影/拍岸</div>
 
 ```
 生命的历程就好比在盘山公路上行车，
