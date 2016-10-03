@@ -142,7 +142,7 @@ input.searchButton {
 	margin-right: 20px;
     /*font-size: 0.8rem;*/
     font-size: 16px;
-	line-height:1.3rem;
+	line-height:1.4;
 
     /* border: 1px solid black; */
 
@@ -568,6 +568,7 @@ color: #66d9ef;
     /*background: rgba(0,39,59,.06);*/
     color: #333;
     padding-top: 0;
+    margin-top: 0;
     padding-bottom: 25px;
 }
 #content code{
