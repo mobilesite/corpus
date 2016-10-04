@@ -440,6 +440,10 @@ function router() {
 
         }());
 
+        var countJs = document.createElement('script');
+        countJs.src = 'https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js';
+        $(ditto.content_id).append($(countJs));
+
     }).fail(function () {
         show_error();
     }).always(function () {
