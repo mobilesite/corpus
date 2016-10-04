@@ -72,8 +72,11 @@ body {
     #sidebar .menu-btn{
         position: fixed;
         display: block;
-        border-radius: 20px 0 0 20px;
         -webkit-border-radius: 20px 0 0 20px;
+        -moz-border-radius: 20px 0 0 20px;
+        -o-border-radius: 20px 0 0 20px;
+        -ms-border-radius: 20px 0 0 20px;
+        border-radius: 20px 0 0 20px;
         top: 50%;
         left: 280px;
         width: 24px;
@@ -86,8 +89,11 @@ body {
     }
     body.folded #sidebar .menu-btn{
         left:0;
-        border-radius: 0 20px 20px 0;
         -webkit-border-radius: 0 20px 20px 0;
+        -moz-border-radius: 0 20px 20px 0;
+        -o-border-radius: 0 20px 20px 0;
+        -ms-border-radius: 0 20px 20px 0;
+        border-radius: 0 20px 20px 0;
     }
     body.folded #sidebar .menu-btn .arrow{
         background-position: 4px top;
