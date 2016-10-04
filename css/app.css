@@ -104,12 +104,12 @@ body {
 @media (min-width: 40rem) {
     body.folded #content {
         width: 880px;
-        padding-left: 45px;
+        padding-left: 55px;
     }
 }
 @media (min-width: 40rem) {
     body.folded #flip {
-        margin-left: 391px;
+        margin-left: 401px;
     }
 }
 /*折叠左侧菜单之后end*/
