@@ -317,7 +317,7 @@ function router() {
 
         $(ditto.content_id).append($(commentLink));
 
-        var countStr = '<div style="text-align:center;font-size: 10px;color: #bfbfbf;padding-top:100px;"><span id="busuanzi_container_site_pv">PV:&nbsp;<span id="busuanzi_value_site_pv"></span></span><span style="font-size:0;line-height: 0" id="busuanzi_container_site_uv">&nbsp;|&nbsp;UV:&nbsp;<span id="busuanzi_value_site_uv"></span></span><span id="busuanzi_container_page_pv">&nbsp;|&nbsp;Current:&nbsp;<span id="busuanzi_value_page_pv"></span></span><br>Copyright © Paian\'s Blog 2016</div></div>';
+        var countStr = '<div style="text-align:center;font-size: 10px;color: #bfbfbf;padding-top:100px;"><span id="busuanzi_container_site_pv">PV:&nbsp;<span id="busuanzi_value_site_pv"></span></span><span id="busuanzi_container_site_uv">&nbsp;|&nbsp;UV:&nbsp;<span id="busuanzi_value_site_uv"></span></span><span id="busuanzi_container_page_pv">&nbsp;|&nbsp;Current:&nbsp;<span id="busuanzi_value_page_pv"></span></span><br>Copyright © Paian\'s Blog 2016</div></div>';
 
         $(ditto.content_id).append($(countStr));
 

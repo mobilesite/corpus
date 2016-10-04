@@ -610,3 +610,7 @@ footer .container {
     padding-right: 5px;
     padding-left: 5px;
 }
+
+#busuanzi_container_site_uv{
+    font-size: 0;line-height: 0
+}
