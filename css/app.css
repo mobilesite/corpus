@@ -399,7 +399,8 @@ blockquote{
 }
 
 #back_to_top:hover {
-    background-color: #444;
+    /*background-color: #444;*/
+    background-color: #4682BE;
     cursor: pointer;
 }
 
@@ -425,7 +426,8 @@ blockquote{
 }
 
 #edit:hover {
-    background-color: #444;
+    /*background-color: #444;*/
+    background-color: #4682BE;
     cursor: pointer;
 }
 
@@ -490,7 +492,8 @@ blockquote{
 
 #pageup:hover,
 #pagedown:hover{
-    background-color: #444;
+    /*background-color: #444;*/
+    background-color: #4682BE;
     cursor: pointer;
 }
 
