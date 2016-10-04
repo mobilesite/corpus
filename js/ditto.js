@@ -313,11 +313,11 @@ function router() {
         var id = (location.hash ? location.hash.replace("#", "") : 'READEME');
         var title = $(ditto.content_id + " h1").text();
         var url = location.href;
-        commentLink = '<div style="margin-top: 50px;margin-bottom: 0px;padding-top: 20px;padding-bottom: 0px;text-align: left;border-top: 1px dotted #777;"></div><div style="margin-bottom: 10px;"><span style="font-size: 16px;">☞</span><a style="margin-left:5px;color: #d32;text-decoration: none;" class="comment-link" href="./comments.html?id='+ id +'&title='+ title +'&url='+ url +'">评论与反馈</a></div><div style="margin-bottom: 10px;"><span style="font-size: 16px;">☞</span><a style="margin-left:5px;color: #4682BE;text-decoration: none;" class="comment-link" href="//mobilesite.github.io">博客首页</a></div>'
+        commentLink = '<div style="margin-top: 50px;margin-bottom: 0px;padding-top: 20px;padding-bottom: 0px;text-align: left;border-top: 1px dotted #777;"></div><div style="margin-bottom: 10px;"><span style="font-size: 16px;">☞</span><a style="margin-left:5px;color: #d84a3c;text-decoration: none;" class="comment-link" href="./comments.html?id='+ id +'&title='+ title +'&url='+ url +'">评论与反馈</a></div><div style="margin-bottom: 10px;"><span style="font-size: 16px;">☞</span><a style="margin-left:5px;color: #d84a3c;text-decoration: none;" class="comment-link" href="//mobilesite.github.io">博客首页</a></div>'
 
         $(ditto.content_id).append($(commentLink));
 
-        var countStr = '<div style="text-align:center;font-size: 10px;color: #bfbfbf;padding-top:100px;"><span id="busuanzi_container_site_pv">PV:&nbsp;<span id="busuanzi_value_site_pv"></span></span><span id="busuanzi_container_site_uv">&nbsp;|&nbsp;UV:&nbsp;<span id="busuanzi_value_site_uv"></span></span><span id="busuanzi_container_page_pv">&nbsp;|&nbsp;Current:&nbsp;<span id="busuanzi_value_page_pv"></span></span><br>Copyright © Paian\'s Blog 2016</div></div>';
+        var countStr = '<div style="text-align:center;font-size: 10px;color: #ddd;padding-top:100px;"><span id="busuanzi_container_site_pv">PV:&nbsp;<span id="busuanzi_value_site_pv"></span></span><span id="busuanzi_container_site_uv">&nbsp;|&nbsp;UV:&nbsp;<span id="busuanzi_value_site_uv"></span></span><span id="busuanzi_container_page_pv">&nbsp;|&nbsp;Current:&nbsp;<span id="busuanzi_value_page_pv"></span></span><br>Copyright © Paian\'s Blog 2016</div></div>';
 
         $(ditto.content_id).append($(countStr));
 
