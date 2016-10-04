@@ -81,8 +81,9 @@ function init_sidebar_section() {
             location.hash = menu[i + 1];
         });
 
-        $(ditto.sidebar_id).append('<a class="menu-btn"><span class="arrow"></span></a>');
-        $('#sidebar .menu-btn').click(function () {
+        $(ditto.sidebar_id).append('<a class="menu-btn" href="#"><span class="arrow"></span></a>');
+        $('#sidebar .menu-btn').click(function (e) {
+            e.preventDefault();
             $('body').toggleClass('folded');
         })
     }, "text").fail(function () {
