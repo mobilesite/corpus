@@ -50,7 +50,7 @@ body {
 
 @media (min-width: 40rem) {
 	#sidebar {
-	width: 330px;
+	width: 305px;
     position: fixed;
     height: 100%;
     margin-right: 20px;
