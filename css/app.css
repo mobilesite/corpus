@@ -579,9 +579,9 @@ color: #66d9ef;
     background: #fff;
     /*background: rgba(0,39,59,.06);*/
     color: #333;
-    padding-top: 0;
+    padding-top: 10px;
     margin-top: 0;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
 }
 #content code{
     color: #333;
