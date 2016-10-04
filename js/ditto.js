@@ -317,7 +317,7 @@ function router() {
 
         $(ditto.content_id).append($(commentLink));
 
-        var countStr = '<div><span id="busuanzi_container_site_pv">PV:&nbsp;<span id="busuanzi_value_site_pv"></span></span>&nbsp;|&nbsp;<span id="busuanzi_container_site_uv">UV:&nbsp;<span id="busuanzi_value_site_uv"></span></span>&nbsp;|&nbsp;<span id="busuanzi_container_page_pv">Current:&nbsp;<span id="busuanzi_value_page_pv"></span></span></div>';
+        var countStr = '<div style="text-align:center;font-size: 10px;color: #bfbfbf;padding-top:100px;"><span id="busuanzi_container_site_pv">PV:&nbsp;<span id="busuanzi_value_site_pv"></span></span>&nbsp;|&nbsp;<span id="busuanzi_container_site_uv">UV:&nbsp;<span id="busuanzi_value_site_uv"></span></span>&nbsp;|&nbsp;<span id="busuanzi_container_page_pv">Current:&nbsp;<span id="busuanzi_value_page_pv"></span></span><br/>Copyright © Paian\'s Blog 2016</div>';
 
         $(ditto.content_id).append($(countStr));
 
