@@ -47,18 +47,61 @@ body {
     -moz-box-shadow: 0 0 40px #CCC;
     border-right: 1px solid #BBB;
 }
+#sidebar .menu-btn{
+    display: none;
+}
+#sidebar .menu-btn .arrow{
+    display: inline-block;
+    background: url("../images/menu-arrow.png") left bottom no-repeat;
+}
 
 @media (min-width: 40rem) {
 	#sidebar {
-	width: 305px;
-    position: fixed;
-    height: 100%;
-    margin-right: 20px;
-    overflow-y: scroll;
-    overflow: -moz-scrollbars-vertical;
-    -webkit-overflow-scrolling: touch
+        -webkit-transition: left ease 500ms;
+        transition: left ease 500ms;
+        width: 305px;
+        position: fixed;
+        height: 100%;
+        margin-right: 20px;
+        overflow-y: scroll;
+        overflow: -moz-scrollbars-vertical;
+        -webkit-overflow-scrolling: touch;
 	}
+    #sidebar .menu-btn{
+        position: absolute;
+        display: block;
+        top: 50%;
+        right: 0;
+    }
+    body.folded #sidebar{
+        left: -275px;
+    }
+    body.folded #sidebar .menu-btn .arrow{
+        background-position: left top;
+    }
 }
+
+/*折叠左侧菜单之后start*/
+@media (min-width: 40rem) {
+    #content{
+        -webkit-transition: padding-left ease 500ms, width ease 500ms;
+        transition: padding-left ease 500ms, width ease 500ms;
+    }
+    body.folded #content {
+        width: 880px;
+        padding-left: 45px;
+    }
+}
+@media (min-width: 40rem) {
+    #flip{
+        -webkit-transition: margin-left ease 500ms;
+        transition: margin-left ease 500ms;
+    }
+    body.folded #flip {
+        margin-left: 391px;
+    }
+}
+/*折叠左侧菜单之后end*/
 
 #sidebar h1 {
     font-size: 25px;
@@ -614,3 +657,4 @@ footer .container {
 #busuanzi_container_site_uv{
     font-size: 0;line-height: 0
 }
+

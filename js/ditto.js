@@ -80,6 +80,11 @@ function init_sidebar_section() {
             }
             location.hash = menu[i + 1];
         });
+
+        $(ditto.sidebar_id).append('<a class="menu-btn"><span class="arrow"></span></a>');
+        $('#sidebar .menu-btn').click(function () {
+            $('body').toggleClass('folded');
+        })
     }, "text").fail(function () {
         alert("Opps! can't find the sidebar file to display!");
     });
