@@ -52,7 +52,7 @@ body {
 }
 #sidebar .menu-btn .arrow{
     display: inline-block;
-    background: url("../images/menu-arrow.png") 3px bottom no-repeat;
+    background: url("../images/menu-arrow.png") 8px bottom no-repeat;
     background-size: 7px 28px;
     width: 20px;
     height: 14px;
@@ -72,10 +72,10 @@ body {
     #sidebar .menu-btn{
         position: fixed;
         display: block;
-        border-radius: 0 20px 20px 0;
+        border-radius: 20px 0 0 20px;
         -webkit-border-radius: 20px 0 0 20px;
         top: 50%;
-        left: 305px;
+        left: 280px;
         width: 24px;
         height: 40px;
         background-color: rgba(0,0,0,.06);
@@ -86,6 +86,8 @@ body {
     }
     body.folded #sidebar .menu-btn{
         left:0;
+        border-radius: 0 20px 20px 0;
+        -webkit-border-radius: 0 20px 20px 0;
     }
     body.folded #sidebar .menu-btn .arrow{
         background-position: 4px top;
