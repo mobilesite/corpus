@@ -51,7 +51,7 @@
     <h1>评论与反馈</h1>
 </div>
 <div id="count">
-    <div><span id="busuanzi_container_site_pv">PV:&nbsp;<span id="busuanzi_value_site_pv"></span></span>&nbsp;|&nbsp;<span id="busuanzi_container_site_uv">UV:&nbsp;<span id="busuanzi_value_site_uv"></span></span>&nbsp;|&nbsp;<span id="busuanzi_container_page_pv">Current:&nbsp;<span id="busuanzi_value_page_pv"></span></span></div>
+
 </div>
 <script>
     function GetQueryString(name){
@@ -71,6 +71,10 @@
     duoshuoCode.setAttribute('data-title', title);
     duoshuoCode.setAttribute('data-url', url);
     document.getElementById('content').appendChild(duoshuoCode);
+
+    var countCode = document.createElement('div');
+    countCode.innerHTML = '<div><span id="busuanzi_container_site_pv">PV:&nbsp;<span id="busuanzi_value_site_pv"></span></span>&nbsp;|&nbsp;<span id="busuanzi_container_site_uv">UV:&nbsp;<span id="busuanzi_value_site_uv"></span></span>&nbsp;|&nbsp;<span id="busuanzi_container_page_pv">Current:&nbsp;<span id="busuanzi_value_page_pv"></span></span></div>';
+    document.getElementById('content').appendChild(countCode);
 
     //加载多说
     // http://paiancorpus.duoshuo.com/admin/tools/

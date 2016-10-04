@@ -319,7 +319,7 @@ function router() {
 
         var countStr = '<div><span id="busuanzi_container_site_pv">PV:&nbsp;<span id="busuanzi_value_site_pv"></span></span>&nbsp;|&nbsp;<span id="busuanzi_container_site_uv">UV:&nbsp;<span id="busuanzi_value_site_uv"></span></span>&nbsp;|&nbsp;<span id="busuanzi_container_page_pv">Current:&nbsp;<span id="busuanzi_value_page_pv"></span></span></div>';
 
-        $(ditto.content_id).append($(commentLink));
+        $(ditto.content_id).append($(countStr));
 
         //你的站点中的ID
         // window.duoshuo_identifier = (location.hash ? location.hash.replace("#", "") : 'READEME');
