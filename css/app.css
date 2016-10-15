@@ -697,5 +697,11 @@ footer .container {
         -webkit-transform: translate(-95px);
         transform: translate(-95px);
     }
+
+    #loading, #error{
+        left: 50%;
+        -webkit-transform: translate(-95px);
+        transform: translate(-95px);
+    }
 }
 
