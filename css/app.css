@@ -115,6 +115,25 @@ body {
         margin-left: 401px;
     }
 }
+
+@media (max-width: 64rem) {
+    #sidebar{
+        width: auto;
+        position: static;
+        height: auto;
+        margin-right: 0;
+        .menu-btn{
+            display:none;
+        }
+    }
+    #content{
+        width:auto;
+        padding-left: 25px;
+        left: 50%;
+        margin-left: -95px;
+    }
+}
+
 /*折叠左侧菜单之后end*/
 
 #sidebar h1 {
