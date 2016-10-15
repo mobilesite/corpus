@@ -682,9 +682,9 @@ footer .container {
         position: static;
         height: auto;
         margin-right: 0;
-        .menu-btn{
-            display:none;
-        }
+    }
+    #sidebar .menu-btn{
+        display:none;
     }
 
     #content{
