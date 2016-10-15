@@ -394,9 +394,9 @@ function router() {
         // var perc = ditto.save_progress ? store.get('page-progress') || 0 : 0;
 
         // if (sectionId) {
-        //     $('html, body').animate({
-        //         scrollTop: ($('#' + decodeURI(sectionId)).offset().top)
-        //     }, 300);
+            $('html, body').animate({
+                scrollTop: ($('#' + decodeURI(sectionId)).offset().top)
+            }, 300);
         // } else {
         //     if (location.hash !== '' || Boolean(perc)) {
         //         if (!Boolean(perc)) {
