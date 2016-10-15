@@ -391,28 +391,28 @@ function router() {
         })();
         **/
 
-        // var perc = ditto.save_progress ? store.get('page-progress') || 0 : 0;
+        var perc = ditto.save_progress ? store.get('page-progress') || 0 : 0;
 
-        // if (sectionId) {
-        //     $('html, body').animate({
-        //         scrollTop: ($('#' + decodeURI(sectionId)).offset().top)
-        //     }, 300);
-        // } else {
-        //     if (location.hash !== '' || Boolean(perc)) {
-        //         if (!Boolean(perc)) {
+        if (sectionId) {
+            $('html, body').animate({
+                scrollTop: ($('#' + decodeURI(sectionId)).offset().top)
+            }, 300);
+        } else {
+            if (location.hash !== '' || Boolean(perc)) {
+                if (!Boolean(perc)) {
                     $('html, body').animate({
                         scrollTop: ($('#content').offset().top + 10)
                     }, 300);
                     $('html, body').animate({
                         scrollTop: ($('#content').offset().top)
                     }, 300);
-        //         } else {
-        //             $('html, body').animate({
-        //                 scrollTop: ($('body').height() - $(window).height()) * perc
-        //             }, 200);
-        //         }
-        //     }
-        // }
+                } else {
+                    $('html, body').animate({
+                        scrollTop: ($('body').height() - $(window).height()) * perc
+                    }, 200);
+                }
+            }
+        }
 
         if (location.hash === '' || location.hash === menu[0]) {
             $('#pageup').css('display', 'none');
@@ -426,25 +426,25 @@ function router() {
             $('#pagedown').css('display', 'inline-block');
         }
 
-        // (function () {
-        //     var $w = $(window);
-        //     var $prog2 = $('.progress-indicator-2');
-        //     var wh = $w.height();
-        //     var h = $('body').height();
-        //     var sHeight = h - wh;
-        //     $w.on('scroll', function () {
-        //         window.requestAnimationFrame(function () {
-        //             var perc = Math.max(0, Math.min(1, $w.scrollTop() / sHeight));
-        //             updateProgress(perc);
-        //         });
-        //     });
-        //
-        //     function updateProgress(perc) {
-        //         $prog2.css({width: perc * 100 + '%'});
-        //         ditto.save_progress && store.set('page-progress', perc);
-        //     }
-        //
-        // }());
+        (function () {
+            var $w = $(window);
+            var $prog2 = $('.progress-indicator-2');
+            var wh = $w.height();
+            var h = $('body').height();
+            var sHeight = h - wh;
+            $w.on('scroll', function () {
+                window.requestAnimationFrame(function () {
+                    var perc = Math.max(0, Math.min(1, $w.scrollTop() / sHeight));
+                    updateProgress(perc);
+                });
+            });
+
+            function updateProgress(perc) {
+                $prog2.css({width: perc * 100 + '%'});
+                ditto.save_progress && store.set('page-progress', perc);
+            }
+
+        }());
 
         var countJs = document.createElement('script');
         countJs.src = 'https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js';
