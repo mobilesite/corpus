@@ -682,17 +682,17 @@ footer .container {
         position: static;
         height: auto;
         margin-right: 0;
-    }
-    .menu-btn{
-        display:none;
+        .menu-btn{
+            display:none;
+        }
     }
 
     #content{
         width:auto;
         padding-left: 25px;
-
     }
     #flip{
+        margin-left: 0;
         left: 50%;
         -webkit-transform: translate(-95px);
         transform: translate(-95px);
