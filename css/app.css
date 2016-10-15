@@ -7,7 +7,7 @@ h1{
 }
  
 /* Medium screens (640px) */
-@media (min-width: 64rem) {
+@media (max-width: 1025px) {
   html { font-size: 112%; }
     h1{
         font-size: 2rem;
@@ -15,7 +15,7 @@ h1{
 }
  
 /* Large screens (1024px) */
-@media (min-width: 64rem) { 
+@media (max-width: 1025px) {
   html { font-size: 120%; }
 }
 
@@ -59,7 +59,7 @@ body {
     margin-top: 13px;
 }
 
-@media (min-width: 64rem) {
+@media (max-width: 1025px) {
 	#sidebar {
         width: 305px;
         position: fixed;
@@ -104,13 +104,13 @@ body {
 }
 
 /*折叠左侧菜单之后start*/
-@media (min-width: 64rem) {
+@media (max-width: 1025px) {
     body.folded #content {
         width: 880px;
         padding-left: 55px;
     }
 }
-@media (min-width: 64rem) {
+@media (max-width: 1025px) {
     body.folded #flip {
         margin-left: 401px;
     }
@@ -218,7 +218,7 @@ blockquote{
 	counter-reset: section; 
 }
 
-@media (min-width: 64rem) {
+@media (max-width: 1025px) {
 	#content {
 		width: 580px;
 		padding-left:355px;
@@ -442,7 +442,7 @@ blockquote{
     font-size: 14px;
 }
 
-@media (min-width: 64rem) {
+@media (max-width: 1025px) {
 	#loading, #error {
 	    display: none;
 		position: fixed;
@@ -499,7 +499,7 @@ blockquote{
     margin-left: 10px;
 }
 
-@media (min-width: 64rem) {
+@media (max-width: 1025px) {
 	#flip{
 		margin-left:545px;
 		/*width:150px;*/
