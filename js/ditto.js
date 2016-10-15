@@ -393,26 +393,26 @@ function router() {
 
         // var perc = ditto.save_progress ? store.get('page-progress') || 0 : 0;
 
-        if (sectionId) {
-            $('html, body').animate({
-                scrollTop: ($('#' + decodeURI(sectionId)).offset().top)
-            }, 300);
-        } else {
-            if (location.hash !== '' || Boolean(perc)) {
-                if (!Boolean(perc)) {
-                    $('html, body').animate({
-                        scrollTop: ($('#content').offset().top + 10)
-                    }, 300);
-                    $('html, body').animate({
-                        scrollTop: ($('#content').offset().top)
-                    }, 300);
-                } else {
-                    $('html, body').animate({
-                        scrollTop: ($('body').height() - $(window).height()) * perc
-                    }, 200);
-                }
-            }
-        }
+        // if (sectionId) {
+        //     $('html, body').animate({
+        //         scrollTop: ($('#' + decodeURI(sectionId)).offset().top)
+        //     }, 300);
+        // } else {
+        //     if (location.hash !== '' || Boolean(perc)) {
+        //         if (!Boolean(perc)) {
+        //             $('html, body').animate({
+        //                 scrollTop: ($('#content').offset().top + 10)
+        //             }, 300);
+        //             $('html, body').animate({
+        //                 scrollTop: ($('#content').offset().top)
+        //             }, 300);
+        //         } else {
+        //             $('html, body').animate({
+        //                 scrollTop: ($('body').height() - $(window).height()) * perc
+        //             }, 200);
+        //         }
+        //     }
+        // }
 
         if (location.hash === '' || location.hash === menu[0]) {
             $('#pageup').css('display', 'none');
