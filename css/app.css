@@ -677,20 +677,25 @@ footer .container {
 
 /* for iPad */
 @media (max-width: 64rem) {
-    #sidebar{
+    #sidebar {
         width: auto;
         position: static;
         height: auto;
         margin-right: 0;
+    }
     .menu-btn{
         display:none;
     }
-}
-#content{
-    width:auto;
-    padding-left: 25px;
-    left: 50%;
-    margin-left: -95px;
-}
+
+    #content{
+        width:auto;
+        padding-left: 25px;
+
+    }
+    #flip{
+        left: 50%;
+        -webkit-transform: translate(-95px);
+        transform: translate(-95px);
+    }
 }
 
