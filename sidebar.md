@@ -57,7 +57,7 @@
 1. [参加招聘会之前的四堂必修课](#docs/note/11interview_tips)
 1. [给作为老师的自己的七条建议](#docs/note/12suggestions_to_teacher)
 1. [大学期间要注意养成这些好习惯](#docs/note/13develop_good_habits)
-1. [秋天之前给学生的话](#docs/note/14write_before_autumn)
+1. [秋天之前给学生们的话](#docs/note/14write_before_autumn)
 1. [当一切都熟悉后，如何保持活力](#docs/note/05maintain_vigour)
 
 ## 其它
