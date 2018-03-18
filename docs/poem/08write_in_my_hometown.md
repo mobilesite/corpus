@@ -1,5 +1,8 @@
 # 岁末回乡偶书
 
+![萧索](images/xiaosuo.jpg)
+<div style="margin-top:-10px;color:#999;text-align:right;">摄影/拍岸</div>
+
 <small>
 
 二〇〇九年末，

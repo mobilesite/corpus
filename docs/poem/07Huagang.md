@@ -1,10 +1,13 @@
 # 花港
 
+![花港公园](images/huagang.jpg)
+<div style="margin-top:-10px;color:#999;text-align:right;">摄影/拍岸</div>
+
 ```
 
 花港的鱼儿色泽鲜艳，
 
-染红了一片片青水池塘。
+染红了一片片清水池塘。
 
 观鱼的江南女子，
 

@@ -1,5 +1,8 @@
 # 写在梦醒时
 
+![瀑布](images/pubu.jpg)
+<div style="margin-top:-10px;color:#999;text-align:right;">摄影/拍岸</div>
+
 ```
 昨夜，
 

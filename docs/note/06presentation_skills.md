@@ -1,5 +1,8 @@
 # 关于演讲的准备和进行中的若干技巧
 
+![变奏](images/bianzou.jpg)
+<div style="margin-top:-10px;color:#999;text-align:right;">摄影/拍岸</div>
+
 ### 一、演讲前
  
 你需要准备好演讲稿和PPT，注意仪容仪表。具体来说需注意如下五点。

@@ -1,5 +1,8 @@
 # 在这春天的早晨
 
+![绿地](images/lvdi.jpg)
+<div style="margin-top:-10px;color:#999;text-align:right;">摄影/拍岸</div>
+
 ——课前“甜点”
  
 在这春天的早晨，一晚上的酣睡之后，早早便听到窗外有鸟在鸣叫。他们似乎在广播着春天到来的消息。

@@ -1,5 +1,8 @@
 # 雪后
 
+![雪后](images/xuehou.jpg)
+<div style="margin-top:-10px;color:#999;text-align:right;">摄影/拍岸</div>
+
 <small>
 下雪的时候并不让人感到寒冷，而最令人难耐的，莫过于雪后的承受。
 

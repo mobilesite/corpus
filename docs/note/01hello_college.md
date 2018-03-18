@@ -2,6 +2,9 @@
 
 ——一次与新生见面会上的发言
 
+![菁菁校园](images/yehuacaodi.jpg)
+<div style="margin-top:-10px;color:#999;text-align:right;">摄影/拍岸</div>
+
 各位同学：
 
 大家晚上好！今天，是我们第一天在教室内集体见面。因此，首先对大家的到来表示欢迎，对你们大学梦的实现表示祝贺！
