@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="app/bower_components/normalize-css/normalize.css">
+    <title>《青春拍岸》</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <style>
+        a:visited, a:link {
+            color: #4682BE;
+            text-decoration: none;
+        }
+        #go-back{
+            padding-top: 10px;
+            font-size: 16px;
+            display: inline-block;
+        }
+
+        #flip{
+            display: none;
+        }
+
+        #content {
+            padding-top: 10px;
+            padding-bottom: 150px;
+            margin-left: 20px;
+            margin-right: 20px;
+            font-size: 0.8rem;
+            line-height: 1.3rem;
+            counter-reset: section;
+        }
+
+        @media (min-width: 48rem){
+            #content {
+                width: 880px;
+                padding-left: 30px;
+                margin-left: 0px;
+                margin-right: 0px;
+                padding-right: 30px;
+            }
+        }
+
+        .comments_footer{
+            text-align: center;
+            margin-top: 210px;
+            color: #ddd;
+        }
+
+        #busuanzi_container_site_uv{
+            font-size: 0;line-height: 0
+        }
+
+        #content{
+            padding-bottom: 20px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div id="content">
+    <a id="go-back" href="javascript: history.go(-1);">返回</a>
+    <h1>评论与反馈</h1>
+</div>
+<div id="count">
+
+</div>
+<script>
+    function GetQueryString(name){
+        var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if(r!=null)return  unescape(r[2]); return null;
+    }
+
+    var id = GetQueryString('id');
+    var title = GetQueryString('title');
+    var url = GetQueryString('url');
+
+    //多说评论框
+    var duoshuoCode = document.createElement('div');
+    duoshuoCode.className = 'ds-thread';
+    duoshuoCode.setAttribute('data-thread-key', id);
+    duoshuoCode.setAttribute('data-title', title);
+    duoshuoCode.setAttribute('data-url', url);
+    document.getElementById('content').appendChild(duoshuoCode);
+
+    var countCode = document.createElement('div');
+    countCode.innerHTML = '<div class="comments_footer"><span id="busuanzi_container_site_pv">PV:&nbsp;<span id="busuanzi_value_site_pv"></span></span><span id="busuanzi_container_site_uv">&nbsp;|&nbsp;UV:&nbsp;<span id="busuanzi_value_site_uv"></span></span><span id="busuanzi_container_page_pv">&nbsp;|&nbsp;Current:&nbsp;<span id="busuanzi_value_page_pv"></span></span><br>Copyright © Paian\'s Blog 2016</div></div>';
+    document.getElementById('content').appendChild(countCode);
+
+    //加载多说
+    // http://paiancorpus.duoshuo.com/admin/tools/
+    var duoshuoQuery = {short_name: "paiancorpus"};
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';
+    ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('body')[0]).appendChild(ds);
+</script>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+</body>
+</html>
